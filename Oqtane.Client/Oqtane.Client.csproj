@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Configurations>Debug;Release</Configurations>
+    <Version>6.1.3</Version>
+    <Product>Oqtane</Product>
+    <Authors>Shaun Walker</Authors>
+    <Company>.NET Foundation</Company>
+    <Description>CMS and Application Framework for Blazor and .NET MAUI</Description>
+    <Copyright>.NET Foundation</Copyright>
+    <PackageProjectUrl>https://www.oqtane.org</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/oqtane/oqtane.framework/blob/dev/LICENSE</PackageLicenseUrl>
+    <PackageReleaseNotes>https://github.com/oqtane/oqtane.framework/releases/tag/v6.1.3</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/oqtane/oqtane.framework</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <RootNamespace>Teamx.Theme.MyBasicTheme.Client</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+    <StaticWebAssetProjectMode>Default</StaticWebAssetProjectMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\v17\DocumentLayout.backup.json" />
+    <Content Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\v17\DocumentLayout.json" />
+    <Content Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\v17\HierarchyCache.v1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\ProjectEvaluation\teamx.theme.mybasictheme.metadata.v9.bin" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\ProjectEvaluation\teamx.theme.mybasictheme.projects.v9.bin" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\ProjectEvaluation\teamx.theme.mybasictheme.strings.v9.bin" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\config\applicationhost.config" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\CopilotIndices\17.14.546.28048\CodeChunks.db" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\CopilotIndices\17.14.546.28048\SemanticSymbols.db" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\FileContentIndex\0e3306ce-e3e2-40c5-bd08-135f3c8bbd13.vsidx" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\FileContentIndex\74172f8e-eab5-4e0e-b868-fea54b995f2d.vsidx" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\FileContentIndex\944d904e-676c-4c3a-ab7f-f519c5174bb5.vsidx" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\FileContentIndex\d38dfa4f-6d97-4a9a-82a0-a9105b32807f.vsidx" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\FileContentIndex\eecc2b59-b828-4c1f-89da-e7ad531da6f5.vsidx" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\.vs\Teamx.Theme.MyBasicTheme\v17\.futdcache.v2" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\Client\Teamx.Theme.MyBasicTheme.Client.csproj" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\Package\Teamx.Theme.MyBasicTheme.Package.csproj" />
+    <None Include="Themes\Teamx.Theme.MyBasicTheme\Teamx.Theme.MyBasicTheme.sln" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Localization" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Oqtane.Shared\Oqtane.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Installer\Controls\AzureSqlConfig.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Themes\Teamx.Theme.MyBasicTheme\Package\bin\Debug\net9.0\" />
+    <Folder Include="Themes\Teamx.Theme.MyBasicTheme\Package\obj\Debug\net9.0\refint\" />
+    <Folder Include="Themes\Teamx.Theme.MyBasicTheme\Package\obj\Debug\net9.0\ref\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PublishTrimmed>false</PublishTrimmed>
+    <BlazorEnableCompression>false</BlazorEnableCompression>
+  </PropertyGroup>
+
+</Project>
